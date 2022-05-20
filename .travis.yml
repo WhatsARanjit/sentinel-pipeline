@@ -1,0 +1,7 @@
+language: bash
+matrix:
+  include:
+  - name: sentinel-0.18.91
+    env: SENTINEL_VERSION=0.18.9
+script:
+  - ./pipeline.sh
